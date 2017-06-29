@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:text="Press the buttons to move!"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:id="@+id/seekBar"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight = "30"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100px"
+            android:paddingRight="100px"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                style="?android:attr/borderlessButtonStyle"
+                android:textColor="#6c5cfc"
+                android:textSize="20dp"
+                android:id="@+id/goRight"
+                android:onClick="rightClick"
+                android:text="left"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/goLeft"
+                android:text="right"
+                android:onClick="leftClick"
+                android:layout_height="match_parent"
+                style="?android:attr/borderlessButtonStyle"
+                android:textColor="#6c5cfc"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+
+
+        </LinearLayout>
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:id="@+id/dancingAndroid"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100px"
+            android:paddingRight="100px"
+            android:src="@drawable/dancingandroid"
+            android:layout_weight="8"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

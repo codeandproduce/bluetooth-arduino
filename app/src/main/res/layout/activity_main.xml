@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/like"
+    android:layout_height="match_parent"
+    tools:context="com.example.chanwookim.bluetoothfinalinno.MainActivity"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/likeButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:scaleType="fitXY"
+        android:layout_width="59dp"
+        android:layout_height="46dp"
+        android:layout_x="-5dp"
+        android:layout_y="457dp"
+        android:onClick="likeClick"
+        android:text="Button" />
+
+
+</AbsoluteLayout>

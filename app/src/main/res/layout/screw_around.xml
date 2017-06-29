@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="CHECK OUT THE SHADOW FAM" />
+
+
+
+    <Button
+        android:id="@+id/goBack"
+        android:onClick="goBackClick"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:textColor="#6c5cfc"
+        style="?android:attr/borderlessButtonStyle"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/goback" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"/>
+
+
+    <Button
+        android:id="@+id/screwAroundButton"
+        android:onClick="screwAroundClick"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#6c5cfc"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="@string/screwAroundd" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+    </LinearLayout>
+    </LinearLayout>

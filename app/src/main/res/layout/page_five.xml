@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/postsomething">
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/postButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:scaleType="fitXY"
+        android:layout_width="67dp"
+        android:layout_height="46dp"
+        android:layout_x="174dp"
+        android:layout_y="556.5dp"
+        android:onClick="postClick"
+        android:text="Button" />
+
+
+</AbsoluteLayout>

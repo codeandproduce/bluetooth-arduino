@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bluetooth Final Inno</string>
+    <string name="LED">Turn on LED</string>
+    <string name="goback">Re-start!</string>
+    <string name="screwAroundd">Have more fun with this technology!</string>
+    <string name="OFFLED">Turn Off LED</string>
+    <string name="state">Turn LED on and off using buttons!</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/chanwookim/.android/build-cache/372a6273f01ce843bb99257fd02817c346d8bada/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d9f58e509a3ff5b601c11ab5ec588c96f9eb82b2">
+        <dex dex="/Users/chanwookim/AndroidStudioProjects/BluetoothFinalInno/app/build/intermediates/pre-dexed/debug/classes_698d1bf85bf0e5394fb79d8b7796fcf17a93cc50.jar" />
+    </item>
+
+</items>
